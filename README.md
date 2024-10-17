@@ -33,7 +33,7 @@ Enable FTRACE for Kernel
 
  7) Clear the logs
     
- cat  /sys/kernel/debug/tracing/trace
+ echo >  /sys/kernel/debug/tracing/trace
 
 
 
