@@ -23,9 +23,11 @@ Enable FTRACE for Kernel
    echo 0 > /sys/kernel/debug/tracing/tracing_on
 
  5) View the logs:
+    
  cat  /sys/kernel/debug/tracing/trace
 
- 6) Clear the logs
+ 7) Clear the logs
+    
  cat  /sys/kernel/debug/tracing/trace
 
 
